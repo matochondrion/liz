@@ -64,20 +64,19 @@ body {
 }
 .projects {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+}
+.projects__container {
+  display: flex;
   justify-content: space-between;
-  padding-top: 10px;
-  padding-right: 100px;
-  padding-left: 100px;
-  padding-bottom: 10px;
-  margin: 10px;
+  width: 1150px;
 }
 .project_box {
   background-color: white;
   height: 340px;
   width: 340px;
   padding: 10px;
-  margin: -70px 10px 10px 10px;
+  margin-top: -60px;
 }
 .project_box__image {
   object-fit: cover;
